@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [我自己的接口测试套件]">
+  <test name="这些是测试模块(failed)">
+    <classes>
+      <class name="com.tester.extend.demo.TestMethodsDemo">
+        <methods>
+          <include name="logDemo"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.tester.extend.demo.TestMethodsDemo -->
+    </classes>
+  </test> <!-- 这些是测试模块(failed) -->
+</suite> <!-- Failed suite [我自己的接口测试套件] -->
