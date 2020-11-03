@@ -11,5 +11,6 @@
     <modules>
         <module>testng</module>
         <module>Chapter6</module>
+        <module>Chapter9</module>
     </modules>
 </project>
