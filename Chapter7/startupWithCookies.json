@@ -7,8 +7,8 @@
     },
     "response":{
       "cookies":{
-        "login":"true ",
-        "status":"10000"
+        "login":"true "
+
       },
       "headers":{
         "Content-Type":"text/html; charset=gbk"
@@ -16,14 +16,17 @@
       "text":"恭喜你获得cookies 信息成功"
     }
   },
+
+
   {
     "description":"这是个带cookies 信息的get请求",
     "request":{
       "uri":"/get/with/cookies",
-      "method":"get",
+      "method":"get" ,
       "cookies":{
         "login":"true "
       }
+
     },
     "response":{
       "headers":{
@@ -32,6 +35,8 @@
       "text":"这是一个需要携带cookies信息才能访问的get请求"
     }
   },
+
+
   {
     "description":"这是一个带有cookies信息的post请求",
     "request":{
@@ -40,15 +45,16 @@
       "cookies":{
         "login":"true"
       },
+      "headers":{
+            "Content-Type":"application/json"
+       },
       "json":{
         "name":"wangwu",
         "age":"10"
       }
     },
     "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
-      },
+
       "status":200,
       "json":{
         "wangwu":"success",
