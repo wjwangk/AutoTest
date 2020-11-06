@@ -45,9 +45,7 @@
       "cookies":{
         "login":"true"
       },
-      "headers":{
-            "Content-Type":"application/json"
-       },
+
       "json":{
         "name":"wangwu",
         "age":"10"

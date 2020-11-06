@@ -84,7 +84,7 @@ public class MyCookiesForPost {
         //设置请求头信息 header信息
         post.setHeader("content-type","application/json");
         //将参数信息添加到方法中
-        StringEntity entity = new StringEntity(param.toString(),"uft-8");
+        StringEntity entity = new StringEntity(param.toString());
         post.setEntity(entity);
         //声明一个对象来进行相应结果存储
         String result;
